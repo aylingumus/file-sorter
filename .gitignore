@@ -1,0 +1,27 @@
+# Maven target directories
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+*.classpath
+*.project
+.settings/
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/.nb-gradle/
+build/
+
+# VS Code
+.vscode/
+
+# macOS system files
+.DS_Store
